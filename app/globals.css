@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply min-h-screen transition-colors duration-500 ease-out selection:bg-indigo-500/30;
+    }
+}
+
+/* --- LIGHT MODE: Liquid Ice --- */
+body {
+    background-color: #f2f4f6;
+    background-image:
+            radial-gradient(at 0% 0%, rgba(200, 210, 255, 0.4) 0px, transparent 50%),
+            radial-gradient(at 100% 100%, rgba(220, 230, 255, 0.4) 0px, transparent 50%),
+            radial-gradient(at 100% 0%, rgba(255, 255, 255, 0.8) 0px, transparent 30%);
+}
+
+/* --- DARK MODE: Smoked Obsidian --- */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #050505;
+        background-image:
+                radial-gradient(at 0% 0%, rgba(50, 50, 80, 0.3) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(30, 30, 60, 0.3) 0px, transparent 50%);
+    }
+}
+
+/* Scrollbar refinement */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); }
+}
