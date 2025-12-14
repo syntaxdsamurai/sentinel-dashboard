@@ -170,7 +170,7 @@ export default function SentinelClean() {
                             <Layers className="w-5 h-5 text-indigo-600 dark:text-white" />
                         </div>
                         <div>
-                            <h1 className="font-bold text-lg tracking-tight text-neutral-900 dark:text-white">Sentinel</h1>
+                            <h1 className="font-bold text-lg tracking-tight text-neutral-900 dark:text-white">DhruvOps-Sentinel</h1>
                             <p className="text-[11px] font-semibold text-neutral-500 uppercase tracking-wider">Production Environment</p>
                         </div>
                     </div>
