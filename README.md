@@ -2,9 +2,8 @@
 
 **A production-grade DevOps dashboard simulating real-time server cluster health, latency, and load metrics.**
 
-> **Live Demo:** [Insert your Vercel Link Here]
+> **Live Demo:** https://dhruv-sentinel.vercel.app/
 
-![Project Preview](https://dhruv-sentinel.vercel.app/)
 
 ## Overview
 **DhruvOps** is a high-performance frontend engineering showcase. Unlike typical static dashboards, this project implements **physics-based data simulation** to mimic the unpredictable nature of real-world infrastructure.
